@@ -66,7 +66,7 @@ public class VentanaConversor extends JFrame {
 					float euros;
 					// he metido todo en el try catch pero con meter la siguiente linea  seria suficiente ya que es lo que da el error de tipo de dato 
 					euros = Float.parseFloat(ValorEuros.getText());
-					if (euros >= 0 && euros <= 500) {
+					if (euros >= 0 && euros <= 500  ) {
 						ValorDolares.setText(String
 								.valueOf(euros * valorDivisa));
 						textField.setText("Todo OK");
